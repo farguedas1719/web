@@ -1,0 +1,129 @@
+.seccion{
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+.seccion:hover{
+  background-color: #e0e0e0;
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
+}
+.logo-container img{
+  max-width: 120px;
+  height: auto;
+}
+.promociones{
+  background-color: #d3b530;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-img-top{
+  height: 180px;
+  object-fit: cover;
+}
+.card-body p{
+  margin-bottom: 1.5rem;
+  color: #000000;
+}
+.categorias-section{
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+}
+.categoria-titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.categoria-boton {
+  transition: all 0.3s ease-in-out;
+  size: 150px;
+  border-radius: 50px;
+}
+.categoria-boton:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.05);
+  text-decoration: none;
+}
+.icono-contacto {
+  font-size: 1.5rem;
+  color: #333;
+}
+.navbar-toggle {
+  font-size: 30px;
+  cursor: pointer;
+}
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  padding: 20px;
+  text-align: right;
+}
+.mobile-menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  margin: 10px 0;
+  display: block;
+}
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+.mobile-menu.active {
+  display: flex;
+}
+
+.seccion {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px;
+}
+.seccion:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+.seccion-web {
+  font-size: 20px;
+  padding: 20px 25px;
+  background-color: #eaeaea;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+}
+.seccion-web:hover{
+  background-color: #d3b530;
+  text-decoration: none;
+  color: #007bff;
+  transform: scale(1.05);
+}
+.btn-oro {
+  background-color: #958b31 !important;
+  color: white !important;
+  border: none;
+}
+.btn-oro:hover {
+  background-color: #7f752a !important;
+}
